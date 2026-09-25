@@ -1,6 +1,6 @@
 git --version
 sudo dnf install git -y(if not installed)
- git config --global user.name "user name"
+git config --global user.name "user name"
 git config --global user.email "user email"
 git config --list
 
