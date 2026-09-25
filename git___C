@@ -1,1 +1,31 @@
+git --version
+sudo dnf install git -y(if not installed)
+ git config --global user.name "user name"
+git config --global user.email "user email"
+git config --list
 
+
+--------------create new project--------------
+
+mkdir git-lab
+cd git-lab
+git init
+vim demo.py
+
+
+--------------clone---------------------
+
+git clone (repozitry link)
+cd project-folder
+git status
+vim practical.py
+
+
+----------------comman commands-----------
+
+git add .
+git commit -m "commit message"
+git remote add origin "repo link"
+git remote -v
+git remote remove origin 
+git push -u origin main
