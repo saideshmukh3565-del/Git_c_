@@ -1,0 +1,38 @@
+# 1. Clone GitHub repository
+git clone https://github.com/username/repository-name.git
+
+# 2. Go inside repository
+cd repository-name
+
+# 3. Check status
+git status
+
+# 4. Add README.md
+git add README.md
+
+# 5. Commit changes
+git commit -m "Added README.md file"
+
+# 6. Push to main branch
+git push origin main
+
+# 7. Create and switch to feature branch
+git checkout -b feature-readme
+
+# 8. Check branches
+git branch
+
+# 9. Add modified README.md
+git add README.md
+
+# 10. Commit modified README.md
+git commit -m "Updated README.md in feature branch"
+
+# 11. Push feature branch to GitHub
+git push -u origin feature-readme
+
+# 12. Switch back to main branch
+git checkout main
+
+# 13. Pull latest changes from GitHub
+git pull origin main
